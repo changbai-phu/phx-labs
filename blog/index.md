@@ -1,8 +1,9 @@
 ---
 title: Blog
+layout: page
 ---
 
-# My Blog
+
 
 Here I share notes, experiments, and insights on AI systems, ML workflows multi-agent frameworks and more. Stay Tuned !
 

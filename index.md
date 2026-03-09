@@ -1,5 +1,6 @@
 ---
 title: pHX Portfolio
+layout: home
 ---
 
 # Hi, I'm Peiqi Hu 👋

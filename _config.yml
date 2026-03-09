@@ -1,2 +1,6 @@
 title: pHX Labs
 theme: minima
+header_pages:
+  - projects/index.md
+  - blog/index.md
+  - contact.md

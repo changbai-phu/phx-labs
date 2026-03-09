@@ -4,7 +4,6 @@ icon: fas fa-folder
 order: 1
 ---
 
-# Projects
 
 <div class="project-grid">
   <div class="project-card">

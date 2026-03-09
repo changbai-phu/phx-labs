@@ -4,7 +4,6 @@ icon: fas fa-envelope
 order: 3
 ---
 
-# Contact
 
 Get in touch:
 

@@ -4,7 +4,6 @@ icon: fas fa-stream
 order: 2
 ---
 
-# My Blog
 
 Here I share notes, experiments, and insights on AI systems, ML workflows, multi-agent frameworks and more.
 

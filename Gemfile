@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.9"
-gem "minima", "~> 2.5"
+gem "jekyll", "~> 4.0"
+gem "jekyll-theme-chirpy", "~> 6.0"
 gem "kramdown-parser-gfm"

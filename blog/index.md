@@ -1,11 +1,13 @@
 ---
-title: Blog
 layout: page
+title: Blog
+icon: fas fa-stream
 ---
 
+# My Blog
 
+Here I share notes, experiments, and insights on AI systems, ML workflows, multi-agent frameworks and more.
 
-Here I share notes, experiments, and insights on AI systems, ML workflows multi-agent frameworks and more. Stay Tuned !
+## Posts
 
-- [Exploring OpenClaw Multi-Agent Workflow](post1.md)
-- [News Trend Analyzer: E2E ML Pipeline](post2.md)
+- [Exploring Multi-Agent Workflow](/blog/post1) – Experiments with multi-agent AI workflows and automation.

@@ -1,6 +1,35 @@
 title: pHX Labs
-theme: minima
-header_pages:
-  - projects/index.md
-  - blog/index.md
-  - contact.md
+tagline: "AI Engineering | Workflow Automation | ML Integration"
+description: "Personal portfolio showcasing projects, AI workflows, and blog."
+url: ""
+
+theme: jekyll-theme-chirpy
+
+chirpy:
+  mode: default
+  theme: default
+  # Sidebar avatar and social links
+  avatar: ""  # empty = no avatar
+  social:
+    github:
+      - url: https://github.com/changbai-phu
+    email:
+      - url: "mailto:peiqi.xing.hu@gmail.com"
+
+# Disable RSS/Atom feed
+feed:
+  path: ""
+
+# Collections for projects  
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+
+
+
+
+
+
+

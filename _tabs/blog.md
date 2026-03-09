@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Blog
 icon: fas fa-stream
+order: 2
 ---
 
 # My Blog

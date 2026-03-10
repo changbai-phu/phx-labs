@@ -4,6 +4,7 @@ description: "Personal portfolio showcasing projects, AI workflows, and blog."
 url: ""
 
 theme: jekyll-theme-chirpy
+favicon: /assets/img/favicons/favicon.svg
 
 chirpy:
   mode: default
@@ -50,7 +51,6 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-
 
 
 

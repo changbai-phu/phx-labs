@@ -1,0 +1,64 @@
+---
+layout: page
+---
+
+<div class="projects-grid">
+  {{ content }}
+</div>
+
+<style>
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.project-card {
+  background: var(--card-bg);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  border: 1px solid var(--main-border-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.project-card h3 a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.project-card h3 a:hover {
+  color: var(--primary-color);
+}
+
+.project-card p {
+  color: var(--text-muted-color);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.project-card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-card .tag {
+  background: var(--main-border-color);
+  color: var(--text-muted-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
+</style>

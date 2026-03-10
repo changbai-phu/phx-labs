@@ -9,4 +9,6 @@ Here I share notes, experiments, and insights on AI systems, ML workflows, multi
 
 ## Posts
 
-- [Exploring Multi-Agent Workflow](/blog/post1) – Experiments with multi-agent AI workflows and automation.
+- [OpenClaw 与 MaxClaw 的实践感悟](/posts/openclaw-maxclaw-experiement/) – Experiements with OpenClaw and MaxClaw, and exploring how they can benefit one's workflow
+
+- [Exploring Multi-Agent Workflow](/posts/multi-agent-workflow/) – Experiments with multi-agent AI workflows and automation.

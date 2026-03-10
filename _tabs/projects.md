@@ -7,34 +7,41 @@ order: 1
 
 <div class="project-grid">
   <div class="project-card">
-    <h3>AI Digest</h3>
-    <p>Multi-agent workflow for curating and analyzing AI research papers with GPT-4 integration.</p>
-    <div class="tags">
-      <span class="tag">Python</span>
-      <span class="tag">LangGraph</span>
-      <span class="tag">GPT-4</span>
+    <h3>Claw Morning</h3>
+    <p>A CLI tool that generates automated daily research briefings by aggregating updates from multiple research and developer sources into a structured HTML report delivered to Feishu on a schedule.</p>
+    <div class="tags-container">
+      <div class="tags">
+        <a href="/tags/scripts/" class="post-tag">Scripts</a>
+        <a href="/tags/scheduled/" class="post-tag">Scheduled</a>
+        <a href="/tags/openclaw/" class="post-tag">OpenClaw</a>
+      </div>
+      <a href="https://github.com/changbai-phu/claw-morning-local" class="btn">View Project</a>
     </div>
-    <a href="#" class="btn">View Project</a>
   </div>
   <div class="project-card">
-    <h3>News Trend Analysis</h3>
-    <p>Real-time news aggregation and trend analysis system using NLP and sentiment analysis.</p>
-    <div class="tags">
-      <span class="tag">JavaScript</span>
-      <span class="tag">NLP</span>
-      <span class="tag">APIs</span>
+    <h3>News Trend Analyer</h3>
+    <p>A production-style news analysis pipeline that ingests RSS feeds, performs sentiment and topic analysis, and visualizes trends in a real-time dashboard.</p>
+    <div class="tags-container">
+      <div class="tags">
+        <a href="/tags/python/" class="post-tag">Python</a>
+        <a href="/tags/docker/" class="post-tag">Docker</a>
+        <a href="/tags/airflow/" class="post-tag">Airflow</a>
+        <a href="/tags/cicd/" class="post-tag">CI/CD</a>
+      </div>
+      <a href="https://github.com/changbai-phu/news-trend-analyzer" class="btn">View Project</a>
     </div>
-    <a href="#" class="btn">View Project</a>
   </div>
   <div class="project-card">
-    <h3>Earthquake Monitor</h3>
-    <p>Global earthquake monitoring system with real-time alerts and visualization dashboard.</p>
-    <div class="tags">
-      <span class="tag">Python</span>
-      <span class="tag">APIs</span>
-      <span class="tag">Dashboard</span>
+    <h3>SimEQ</h3>
+    <p>A GenAI-powered system designed to simulate realistic earthquake scenarios and generate actionable response plans from real-world disaster reports, aiming to support and enhance disaster management efforts.</p>
+    <div class="tags-container">
+      <div class="tags">
+        <a href="/tags/genai/" class="post-tag">GenAI</a>
+        <a href="/tags/rag/" class="post-tag">RAG</a>
+        <a href="/tags/prompting/" class="post-tag">Prompting</a>
+      </div>
+      <a href="https://github.com/changbai-phu/SimEQ" class="btn">View Project</a>
     </div>
-    <a href="#" class="btn">View Project</a>
   </div>
 </div>
 
@@ -53,6 +60,10 @@ order: 1
   background: white;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
   transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 200px; /* Ensure minimum height for consistent layout */
 }
 
 .project-card:hover {
@@ -60,18 +71,20 @@ order: 1
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-.tags {
-  margin: 1rem 0;
+.tags-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  width: 100%;
 }
 
-.tag {
-  display: inline-block;
-  background: #f0f0f0;
-  padding: 0.25rem 0.75rem;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  margin-right: 0.5rem;
-  color: #555;
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem; /* Reduced margin to minimize space */
+  align-items: center;
+  justify-content: flex-start; /* Align content to start */
 }
 
 .btn {
@@ -82,10 +95,30 @@ order: 1
   border-radius: 4px;
   text-decoration: none;
   font-weight: bold;
+  align-self: flex-start; /* Align button to the start */
+  margin-top: 0.25rem; /* Small margin between tags and button */
 }
 
 .btn:hover {
   background: #54a3ec;
   color: white;
+}
+
+.post-tag {
+  display: inline-block;
+  background: #f8f9fa; /* Light grayish-white background */
+  color: #6c757d; /* Gray text */
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: 1px solid #dee2e6; /* Subtle border */
+}
+
+.post-tag:hover {
+  background: #e9ecef; /* Slightly darker on hover */
+  color: #495057; /* Darker gray text on hover */
+  text-decoration: none;
 }
 </style>

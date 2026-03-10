@@ -18,6 +18,15 @@ chirpy:
     email:
       - url: "mailto:peiqi.xing.hu@gmail.com"
 
+# Jekyll plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-twitter-plugin
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
 # Disable RSS/Atom feed
 feed:
   path: ""

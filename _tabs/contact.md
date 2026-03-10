@@ -7,5 +7,5 @@ order: 3
 
 Get in touch:
 
-- **Email:** [peiqi.xing.hu@gmail.com](mailto:peiqi.xing.hu@gmail.com)
+- **Email:** [peiqi.hu.xing@gmail.com](mailto:peiqi.hu.xing@gmail.com)
 - **GitHub:** [github.com/changbai-phu](https://github.com/changbai-phu)

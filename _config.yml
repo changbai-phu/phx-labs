@@ -5,8 +5,6 @@ url: ""
 
 theme: jekyll-theme-chirpy
 
-# Site settings
-# Extract these values from `_profiles/author.yml` and front matter.
 chirpy:
   mode: default
   theme: default
@@ -17,20 +15,6 @@ chirpy:
       - url: https://github.com/changbai-phu
     email:
       - url: "mailto:peiqi.xing.hu@gmail.com"
-
-# Jekyll plugins
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-twitter-plugin
-  - jekyll-seo-tag
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-archives
-
-# Disable PWA functionality to avoid theme version conflicts
-pwa:
-  enabled: false
 
 # Disable RSS/Atom feed
 feed:

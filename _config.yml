@@ -27,6 +27,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-paginate
+  - jekyll-archives
 
 # Disable RSS/Atom feed
 feed:

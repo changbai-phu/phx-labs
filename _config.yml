@@ -29,6 +29,10 @@ plugins:
   - jekyll-paginate
   - jekyll-archives
 
+# Disable PWA functionality to avoid theme version conflicts
+pwa:
+  enabled: false
+
 # Disable RSS/Atom feed
 feed:
   path: ""

@@ -3,7 +3,7 @@ tagline: "Building | Experimenting | Documenting along the way."
 description: "Personal portfolio showcasing projects, AI workflows, and blog."
 url: ""
 
-remote_theme: cotes2020/jekyll-theme-chirpy
+theme: jekyll-theme-chirpy
 
 # Site settings
 # Extract these values from `_profiles/author.yml` and front matter.
@@ -24,7 +24,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-twitter-plugin
   - jekyll-seo-tag
-  - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-archives

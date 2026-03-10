@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.0"
-gem "jekyll-remote-theme"
+gem "jekyll-theme-chirpy"
 gem "jekyll-feed"
 gem "jekyll-sitemap"
 gem "jekyll-twitter-plugin"
@@ -10,3 +10,4 @@ gem "jekyll-include-cache"
 gem "jekyll-paginate"
 gem "jekyll-archives"
 gem "kramdown-parser-gfm"
+gem "ostruct"

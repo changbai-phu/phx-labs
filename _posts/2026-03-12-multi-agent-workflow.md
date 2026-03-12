@@ -11,7 +11,7 @@ author: pHX
 
 ## My Journey into AI and Automation
 
-My journey into the world of AI and automation has been a gradual but transformative experience. Last year, I had the opportunity to explore OpenClaw, a powerful multi-agent framework that opened my eyes to the possibilities of collaborative AI systems. Prior to this, I had already immersed myself in LLM and RAG technologies through the intensive 5-day Google GenAI workshop, which provided me with a solid foundation in generative AI concepts and practical applications.
+My journey into the world of AI and automation has been a gradual but transformative experience. This year, I had the opportunity to explore OpenClaw, a powerful multi-agent framework that opened my eyes to the possibilities of collaborative AI systems. Prior to this, I had already immersed myself in LLM and RAG technologies through the intensive 5-day Google GenAI workshop, which provided me with a solid foundation in generative AI concepts and practical applications.
 
 Building on this knowledge, I developed SimEQ, an innovative system that leverages GenAI to simulate real earthquake scenarios and generate appropriate response plans. This project was particularly meaningful to me because it demonstrated how AI could be applied to critical real-world problems, specifically in disaster management and emergency response. Through SimEQ, I gained hands-on experience in translating theoretical AI concepts into tangible, practical solutions that could potentially save lives.
 
@@ -23,11 +23,11 @@ In addition to my AI and analytics background, I invested time in cloud infrastr
 
 This year, I undertook a significant project: building an end-to-end news analysis automation pipeline. This system represented a major milestone in my technical journey because it connected multiple components into a cohesive workflow. I containerized the entire program using Docker, which ensured consistency across different environments and simplified deployment. Additionally, I implemented Apache Airflow to orchestrate the workflow automation, enabling scheduled execution, task dependencies, and robust error handling.
 
-This project was transformative because it allowed me to gain a deeper understanding of two critical areas: ETL (Extract, Transform, Load) processes and the Software Development Life Cycle (SDLC). I personally experienced the challenges and rewards of designing a complete data pipeline—from raw data acquisition to processed, analyzed outputs. I learned how to handle data ingestion, transformation, validation, and storage at scale, while also implementing proper monitoring, logging, and alerting mechanisms.
+This project was transformative because it allowed me to gain a deeper understanding of two critical areas: ETL (Extract, Transform, Load) processes and the Software Development Life Cycle (SDLC). I personally experienced the challenges and rewards of designing a complete data pipeline—from raw data acquisition to processed, analyzed outputs. I learned how to handle data ingestion, transformation, validation, and storage at scale, while also planning to implement proper monitoring, logging, and alerting mechanisms (by the time writing this blog).
 
 ## The Revelation: How OpenClaw Fits Into My Vision
 
-Standing at this point in my career and looking back at everything I've explored and experienced, I suddenly realized how perfectly OpenClaw could address the challenges I faced in building complex, multi-stage automation workflows. The pieces of the puzzle finally came together in my mind.
+Standing at this point this year and looking back at everything I've explored and experienced, I suddenly realized how perfectly OpenClaw could address the challenges I faced in building complex, multi-stage automation workflows. The pieces of the puzzle finally came together in my mind.
 
 This realization inspired me to draft a prototype for automating the entire workflow—from data fetching and processing to analysis, containerization, monitoring, and CI/CD integration. The vision is ambitious but achievable: a multi-agent system where each agent specializes in a specific task, working collaboratively under the orchestration of a central agent.
 

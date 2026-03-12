@@ -4,6 +4,7 @@ description: "Personal portfolio showcasing projects, AI workflows, and blog."
 url: ""
 
 theme: jekyll-theme-chirpy
+favicon: /assets/img/favicons/favicon.ico
 
 chirpy:
   mode: default
@@ -14,7 +15,7 @@ chirpy:
     github:
       - url: https://github.com/changbai-phu
     email:
-      - url: "mailto:peiqi.xing.hu@gmail.com"
+      - url: "mailto:hu.peiqi@outlook.com"
 
 # Disable RSS/Atom feed
 feed:
@@ -50,8 +51,6 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-
-
 
 
 

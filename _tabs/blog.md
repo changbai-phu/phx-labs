@@ -9,6 +9,9 @@ Here I share notes, experiments, and insights on AI systems, ML workflows, multi
 
 ## Posts
 
-- [OpenClaw 与 MaxClaw 的实践感悟]({{ site.baseurl }}/posts/openclaw-maxclaw-experiement/) – Experiements with OpenClaw and MaxClaw, and exploring how they can benefit one's workflow
+- [AI时代怎么保护自己的作品?]({{ site.baseurl }}/posts/protect-art-in-ai-era/) – Exploring strategies and existing products for protecting artistic creations in the age of AI.
+
+- [OpenClaw 与 MaxClaw 的实践感悟]({{ site.baseurl }}/posts/openclaw-maxclaw-experiement/) – Experiements with OpenClaw and MaxClaw, and exploring how they can benefit one's workflow.
+
 
 - [Exploring Multi-Agent Workflow]({{ site.baseurl }}/posts/multi-agent-workflow/) – Experiments with multi-agent AI workflows and automation.

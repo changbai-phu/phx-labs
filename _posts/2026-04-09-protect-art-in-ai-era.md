@@ -15,7 +15,7 @@ author: pHX
 
 先说两个比较重要的绘画作品的保护研究，都是由UChicago SAND Lab develop的，且都是免费的：
 
-1. !(Glaze)[https://glaze.cs.uchicago.edu/what-is-glaze.html] 
+1. ![Glaze](https://glaze.cs.uchicago.edu/what-is-glaze.html)
 	- 2023年3月launch，有超过850万下载量。
 	- 类似于隐形衣，防止AI算法识别、复制艺术家的风格。
 	- 除了APP还有web version（因为本地跑Glaze有一些内存要求）。

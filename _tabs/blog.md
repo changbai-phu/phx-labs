@@ -14,4 +14,6 @@ Here I share notes, experiments, and insights on AI systems, ML workflows, multi
 - [OpenClaw 与 MaxClaw 的实践感悟]({{ site.baseurl }}/posts/openclaw-maxclaw-experiement/) – Experiements with OpenClaw and MaxClaw, and exploring how they can benefit one's workflow.
 
 
-- [Exploring Multi-Agent Workflow]({{ site.baseurl }}/posts/multi-agent-workflow/) – From Exploration to Implementation: Building a Multi-Agent Workflow System
+- [Exploring Multi-Agent Workflow]({{ site.baseurl }}/posts/multi-agent-workflow/) – From Exploration to Implementation: Building a Multi-Agent Workflow System.
+
+- [Building Research Compass: A Modular AI Platform for Literature Review]({{ site.baseurl }}/posts/research-compass/) – A In-Progress project to explore how to use AI to assist literature review.

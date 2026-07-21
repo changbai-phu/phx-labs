@@ -7,6 +7,18 @@ order: 1
 
 <div class="project-grid">
   <div class="project-card">
+    <h3>Research Compass</h3>
+    <p>A Modular AI Platform for Literature Retrieval, Evaluation, and Research Assistance.(In Progress) </p>
+    <div class="tags-container">
+      <div class="tags">
+        <a href="/tags/ai/" class="post-tag">AI</a>
+        <a href="/tags/rag/" class="post-tag">RAG</a>
+        <a href="/tags/llm/" class="post-tag">LLM</a>
+      </div>
+      <a href="https://github.com/changbai-phu/ResearchCompass" class="btn">View Project</a>
+    </div>
+  </div>
+  <div class="project-card">
     <h3>Claw Morning</h3>
     <p>A CLI tool that generates automated daily research briefings by aggregating updates from multiple research and developer sources into a structured HTML report delivered to Feishu on a schedule.</p>
     <div class="tags-container">
@@ -19,7 +31,7 @@ order: 1
     </div>
   </div>
   <div class="project-card">
-    <h3>News Trend Analyer</h3>
+    <h3>News Trend Analyzer</h3>
     <p>A production-style news analysis pipeline that ingests RSS feeds, performs sentiment and topic analysis, and visualizes trends in a real-time dashboard.</p>
     <div class="tags-container">
       <div class="tags">

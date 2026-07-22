@@ -22,7 +22,7 @@ I wanted something that could:
 ## Current architecture (high level)
 
 1. **Document Module** - upload pdfs, text chunking, indexing
-2. **Retrieval Module** - search for papers, vector retrieval etc
+2. **Retrieval Module** - semantic search, vector retrieval etc
 3. **LLM Module** - one unified interface for LLM
 4. **Evaluation Module** - evaluate generated responses based on automated or pre-defined metrics
 5. **Memory Module** - store long-term research context (optimization)

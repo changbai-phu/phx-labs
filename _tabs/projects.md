@@ -19,6 +19,17 @@ order: 1
     </div>
   </div>
   <div class="project-card">
+    <h3>Research Notes</h3>
+    <p>A structured repo documenting my study, paper reviews, and technical notes on quantum computing and related research. (In Progress) </p>
+    <div class="tags-container">
+      <div class="tags">
+        <a href="/tags/quantum-computing/" class="post-tag">Quantum Computing</a>
+        <a href="/tags/research/" class="post-tag">Research</a>
+      </div>
+      <a href="https://github.com/changbai-phu/ResearchNotes" class="btn">View Project</a>
+    </div>
+  </div>
+  <div class="project-card">
     <h3>Claw Morning</h3>
     <p>A CLI tool that generates automated daily research briefings by aggregating updates from multiple research and developer sources into a structured HTML report delivered to Feishu on a schedule.</p>
     <div class="tags-container">

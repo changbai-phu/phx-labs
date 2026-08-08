@@ -17,6 +17,15 @@ chirpy:
     email:
       - url: "mailto:hu.peiqi@outlook.com"
 
+# Enable tag and category pages
+jekyll-archives:
+  enabled:
+    - tags
+    - categories
+  permalinks:
+    tag: /tags/:name/
+    category: /category/:name/
+
 # Disable RSS/Atom feed
 feed:
   path: ""
